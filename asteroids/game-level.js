@@ -64,6 +64,10 @@ function GameLevel(level) {
         fill(255);
         text("LEVEL: " + this.level, 20, 30);
         text("SCORE: " + this.score, width - 250, 30);
+        textSize(20);
+        text("HELP:", 20, height - 80);
+        text("WASD to move,", 20, height - 50);
+        text("SPACEBAR to fire.", 20, height - 20);
         if(this.gameOver) {
             textSize(40);
             fill('green');
